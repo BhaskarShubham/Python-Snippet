@@ -17,7 +17,7 @@ def fibonacci_series(val):
     fibonacci=str(finallist)
     print(fibonacci[1:-1])
 
-def main():
+def main(): #Wrapper function
     range=int(input("Enter the number till you want fibonacci series: "))
     fibonacci_series(range)
 
